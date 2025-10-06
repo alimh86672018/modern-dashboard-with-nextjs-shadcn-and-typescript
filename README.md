@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h2>📊 Modern Dashboard — Next.js + ShadCN + Tailwind + Nivo</h2>
 
-## Getting Started
+A modern application built with <code>Next.js 14</code>, <code>React 18</code>, <code>Tailwind CSS</code>, <code>ShadCN UI</code> components, and <code>Nivo</code> charts.
+This project focuses on clean UI design, data visualization, and component architecture, rather than backend integration — making it an ideal showcase of front-end skills and dashboard interface design.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h3>✨ Features</h3>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+⚛️ Next.js 14 (App Router) – Fast, server-rendered React framework with built-in routing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🎨 Tailwind CSS – Utility-first styling for responsive, modern UI
 
-## Learn More
+🧩 ShadCN UI – Accessible and composable UI components built on Radix
 
-To learn more about Next.js, take a look at the following resources:
+📈 Nivo Charts – Powerful and customizable charts for data visualization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🗂️ Modular Component Architecture – Easy to extend and maintain
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+💻 TypeScript Support – Safer, more maintainable code
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<h3>🚀 Getting Started</h3>
+
+1. Clone the repository
+
+     git clone https://github.com/alimh86672018/modern-dashboard-with-nextjs-shadcn-and-typescript.git
+     
+     cd modern-dashboard-with-nextjs-shadcn-and-typescript
+
+2. Install dependencies
+<code>npm install</code>
+
+3. Run the development server
+<code>npm run dev</code>
+
+Then open http://localhost:3000
+ in your browser 🚀
+
+
+
+<h3>📌 Notes</h3>
+
+This project is focused on UI/UX, component design, and front-end architecture.
+
+It does not include backend APIs or database integration — mock data is used for chart visualization.

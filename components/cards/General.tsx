@@ -14,11 +14,18 @@ import {
 // responsive component, otherwise height will be 0 and
 // no chart will be rendered.
 
-const MyResponsiveBump = (props: any) => {
+type MyResponsiveBumpProps = {
+  data: Array<{
+    id: string;
+    data: Array<{ x: string | number; y: number }>;
+  }>;
+};
+
+const MyResponsiveBump = ({ data }: MyResponsiveBumpProps) => {
   return (
     <div className="w-full h-full">
       <ResponsiveBump
-        data={props.data}
+        data={data}
         colors={{ scheme: "spectral" }}
         lineWidth={3}
         activeLineWidth={6}

@@ -50,3 +50,9 @@ It does not include backend APIs or database integration — mock data is used f
 <h3>🖥 Live Demo</h3>
 
 🔗 View the live dashboard on Vercel: https://modern-dashboard-with-nextjs-shadcn.vercel.app/
+
+
+
+
+<img width="820" height="430" alt="image" src="https://github.com/user-attachments/assets/57307fe1-6013-40a5-95f4-cc45930ce05b" />
+

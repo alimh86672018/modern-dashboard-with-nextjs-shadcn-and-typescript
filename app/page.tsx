@@ -1,9 +1,8 @@
 import Calendar from "@/components/cards/Calendar";
+import DataTable from "@/components/cards/DataTable";
 import General from "@/components/cards/General";
 import Lines from "@/components/cards/Lines";
 import Table from "@/components/cards/Table";
-import { Card } from "@/components/ui/card";
-import DataTable from "@/components/cards/DataTable";
 
 export default function Home() {
   return (

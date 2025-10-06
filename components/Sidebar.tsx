@@ -4,7 +4,6 @@ import Link from "next/link";
 import {
   Command,
   CommandGroup,
-  CommandInput,
   CommandItem,
   CommandList,
   CommandSeparator,
@@ -57,11 +56,11 @@ export default function Sidebar() {
           <Command>
             <CommandList className="max-h-[350px]">
               {menuItems.map((group, i: number) => (
-                <>
-                  <CommandGroup key={i} heading={group.group}>
+                <div key={i}>
+                  <CommandGroup heading={group.group}>
                     {group.items.map((item, index: number) => (
-                      <Link href="/">
-                        <CommandItem key={index} className="cursor-pointer">
+                      <Link href="/" key={index}>
+                        <CommandItem className="cursor-pointer">
                           <span>{item.icon}</span>
                           {item.name}
                         </CommandItem>
@@ -69,7 +68,7 @@ export default function Sidebar() {
                     ))}
                   </CommandGroup>
                   <CommandSeparator />
-                </>
+                </div>
               ))}
             </CommandList>
           </Command>

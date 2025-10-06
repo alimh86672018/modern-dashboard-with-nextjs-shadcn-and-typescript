@@ -9,7 +9,12 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-const MyLine = ({ data }: any) => (
+type MyLineProps = Array<{
+  id: string;
+  data: Array<{ x: string | number; y: number }>;
+}>;
+
+const MyLine = ({ data }: { data: MyLineProps }) => (
   <ResponsiveLine
     data={data}
     yScale={{

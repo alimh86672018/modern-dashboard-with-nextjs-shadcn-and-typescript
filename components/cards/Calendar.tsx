@@ -9,7 +9,11 @@ import {
 } from "@/components/ui/card";
 import { ResponsiveTimeRange } from "@nivo/calendar";
 
-const MyTimeRange = ({ data }: any) => (
+type MyTimeRangeProps = {
+  data: Array<{ day: string; value: number }>;
+};
+
+const MyTimeRange = ({ data }: MyTimeRangeProps) => (
   <div className="w-full h-full">
     <ResponsiveTimeRange
       data={data}

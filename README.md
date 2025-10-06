@@ -45,3 +45,8 @@ Then open http://localhost:3000
 This project is focused on UI/UX, component design, and front-end architecture.
 
 It does not include backend APIs or database integration — mock data is used for chart visualization.
+
+
+<h3>🖥 Live Demo</h3>
+
+🔗 View the live dashboard on Vercel: https://modern-dashboard-with-nextjs-shadcn.vercel.app/
